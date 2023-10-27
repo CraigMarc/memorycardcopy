@@ -1,0 +1,67 @@
+.card {
+  height: 222px;
+  width: 330px;
+  border: solid;
+}
+
+@media only screen and (max-width: 350px) {
+  .card {
+    width: 290px;
+   
+  }}
+/*
+@media only screen and (max-width: 550px) {
+  .cardContainer {
+    width: 300px;
+   
+  }}*/
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+.img {
+  height: 212px;
+  width: 320px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 350px) {
+  .img {
+    width: 280px;
+   
+  }}
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.newGameContainer {
+  padding-bottom: 10px ; 
+  text-align: center;
+  }
+
+.gameInfoContainer {
+  display: flex;
+  gap: 50px;
+  padding-left: 30px;
+  justify-content: center;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.gameInfoContainer > div > p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.headerContainer {
+  text-align: center;
+}
